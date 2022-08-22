@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.PriceMapper">
+<!--    <insert id="insertBatchIoc" parameterType="cn.isch.po.Ioc">-->
+<!--        insert into ioc(time, type, sub_type, count, ioc_content )-->
+<!--        values-->
+<!--        <foreach collection="list" item="item" separator=",">-->
+<!--            (-->
+<!--            #{item.time}, #{item.type}, #{item.subType}, #{item.count}, #{item.iocContent}-->
+<!--            )-->
+<!--        </foreach>-->
+<!--    </insert>-->
+</mapper>
