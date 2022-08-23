@@ -15,9 +15,4 @@ import org.apache.ibatis.annotations.Options;
  */
 public interface UserMapper extends BaseMapper<User> {
 
-    @Insert("INSERT INTO user(name,phone,create_time,age) VALUES(#{name}, #{phone}, #{createTime},#{age}")
-    @Options(useGeneratedKeys = true, keyProperty = "id", keyColumn = "id")
-        // keyProperty java对象的属性；keyColumn表示数据库的字段
-    int insert(User user);
-
 }

@@ -2,6 +2,7 @@ package com.example.demo.mapper;
 
 import com.example.demo.entity.Price;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * <p>

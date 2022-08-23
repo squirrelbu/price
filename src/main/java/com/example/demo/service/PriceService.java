@@ -2,6 +2,8 @@ package com.example.demo.service;
 
 import com.example.demo.entity.Price;
 import com.baomidou.mybatisplus.extension.service.IService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  * <p>
@@ -11,6 +13,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author 关注公众号：MarkerHub
  * @since 2022-08-21
  */
+
 public interface PriceService extends IService<Price> {
+
 
 }

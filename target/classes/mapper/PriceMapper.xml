@@ -10,4 +10,13 @@
 <!--            )-->
 <!--        </foreach>-->
 <!--    </insert>-->
+    <insert id="add" parameterType="com.example.demo.entity.Price">
+       INSERT INTO `eth_price`.`m_price` (`id`, `time`, `price`)
+       VALUES (NULL, NULL, NULL);
+                <foreach collection="list" item="item" separator=",">
+                    (
+                    #{item.id}, #{item.time}, #{item.price},
+                    )
+                </foreach>
+    </insert>
 </mapper>

@@ -17,4 +17,5 @@ import org.springframework.stereotype.Service;
 @Service
 public class PriceServiceImpl extends ServiceImpl<PriceMapper, Price> implements PriceService {
 
+
 }
